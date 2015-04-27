@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "안녕하세요 김지훈 입니다."
+title:  "Making great product."
 date:   2015-04-16 23:37:27
 categories: jekyll update
 ---
