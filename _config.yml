@@ -13,7 +13,7 @@ facebook_username: jihuun
 twitter_username: jihuunk
 disqus_shortname: jihuun
 favicon:     "/images/favicon.ico"
-aboutme: 안녕하세요 김지훈 입니다. # these are shown on aboutme-sidebar.
+aboutme:  # these are shown on aboutme-sidebar.
 aboutme_photo: https://avatars2.githubusercontent.com/u/8668053?v=3&s=460
 
 
