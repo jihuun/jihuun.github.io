@@ -1,9 +1,0 @@
-name: Life For Contribution
-url: http://jihuun.com
-description: 안녕하세요 김지훈 입니다.
-
-permalink: /:year/:month/:day/:title/
-paginate: 10
-pygments: true
-
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
