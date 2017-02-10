@@ -8,8 +8,8 @@ layout: default
     <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
     <p class="post-meta">
     {{ site.locales[site.default_locale].PostedInCategories }}
-    {% for cat in page.categories %}
-    <a href="{{site.baseurl}}/categories/#{{ cat }}">{{ cat }}</a>&nbsp;
+    {% for cat in page.projects %}
+    <a href="{{site.baseurl}}/projects/#{{ cat }}">{{ cat }}</a>&nbsp;
     {% endfor %} 
     {% if page.tags != empty %}
     {{ site.locales[site.default_locale].Taggedwith }}
