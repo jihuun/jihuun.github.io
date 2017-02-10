@@ -1,55 +1,24 @@
 ---
 layout: default
-title: Home
-shownav: true
 ---
 
-
-<section class="selected-writing">
-  <h2>Selected Writing</h2>
-  <h3>“Write drunk, edit sober” &#8212; Ernest Hemingway</h3>
-  <br>
-{% for post in site.categories.blog limit:3 %}
-
-      <span class="pontuation">❝</span><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-      <br>
-      <small>{{ post.date | date_to_string }}</small>
-      <br>
-      <br>
-
-{% endfor %}
-
-  
-
-</section>
-<a href="{{ site.url }}/writing">More</a>
-</span>
-
-<br>
-<br>
-<br>
-
-<section class="selected-works">
-  <h2>Selected Stories</h2>
-  <h3>About startups, people and side projects I had the pleasure to work on.</h3>
-  <br>
+<div class="header-bar">
+  <h1>숲사람</h1>
+  <h2>삶과 생각 그리고 기록</h2>
+  <br/>
+  <hr>
+  <br/>
+</div>
 
 
-  {% for work in site.data.works %}
-  <a style="border: transparent 0px;" href="{{ work.url }}" target="_blank"><img style="margin-bottom:10px;" src="{{ work.image }}"></a><br>
-
-  <span class="pontuation">❝</span><a href="{{ work.url }}" target="_blank">{{ work.title }}</a>
-  <br>
-  <small>{{ work.role }}, {{ work.date }}</small>
-  <br>
-  <br>
-  <br>
-  {% endfor %}
-
-
-</section>
-
-<!-- <a href="/works">More</a> -->
-
-
-
+<ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
+        <p>{{ post.description }}</p>
+        <br/>
+        <hr/>
+      </li>
+    {% endfor %}
+</ul>

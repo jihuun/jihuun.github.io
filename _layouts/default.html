@@ -1,26 +1,21 @@
-{% include header.html %}
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
 
 
-<body class="animated fadeIn">
-<div class="container content">
-<header class="masthead" style="background-image: url(https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/9569_534127946632387_1353952805_n.jpg?oh=928bf84ac3f675d6b751467c48a5123b&oe=590C966E);">
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
 
-    <!-- Navigation Loop -->
-    {% include nav.html %}
+    {% include footer.html %}
 
-    <div class="dot"></div>
-    <h1 class="big-serif">Soopsaram<br>User Manual</h1>
-    <h2 class="small-sans"><a href="{{ site.url }}/about">is</a> a designer helping companies to build<br>
-      better products to their users. Currently<br>
-      disrupting the future of crowdfunding at <a href="http://www.trycelery.com" target="_blank">Celery</a>.</h2>
-
-</header>
-
-{{ content }}
-
-{% include footer.html %}
-
-</body>
-
+  </body>
 
 </html>

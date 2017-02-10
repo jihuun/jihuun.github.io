@@ -1,32 +1,28 @@
-# Setup
-title: "숲사람"
+# Site settings
+title: *folio
+email: you@example.com
+description: > # this means to ignore newlines until "baseurl:"
+  A simple, whitespace, helvetica based portfolio theme.
+baseurl:  # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
+twitter_username: twitter_username
+github_username:  github_username
 
-# Use absolute URL when not hosting on the root of server
-
-url: ""
-baseurl: "" 
-
+# Build settings
 markdown: kramdown
-permalink: /writing/:title
+
+highlighter: rouge
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
 
 
-navigation:
- - title: Home
-   url: /
- - title: Writing
-   url: /writing/
- - title: About
-   url: /about/
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+  poetry:
+    output: true
+    permalink: /poetry/:path/
 
-
-# Assets
-
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-
-
-
-port: 8989
