@@ -1,35 +1,42 @@
 ---
-layout: default
+layout: article
 ---
-<div class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 itemprop="name" class="post-title">{{ page.title }}</h1>
-    <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
-    <p class="post-meta">
-    {{ site.locales[site.default_locale].PostedInCategories }}
-    {% for cat in page.projects %}
-    <a href="{{site.baseurl}}/projects/#{{ cat }}">{{ cat }}</a>&nbsp;
-    {% endfor %} 
-    {% if page.tags != empty %}
-    {{ site.locales[site.default_locale].Taggedwith }}
-    {% for tag in page.tags %}
-    <a href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }} </a>{% unless page.tags.last == tag %}, {% endunless %}
-    {% endfor %}
+
+<header class="masthead" style="background-image: url({{ site.url }}{{ page.bg }});">
+
+    {% include nav.html %}
+
+    <div class="dot"></div>
+    <h1 class="big-serif">{{ page.title }}</h1>
+    <!--<h2 class="small-sans">{{ page.subtitle }}</h2>-->
+    <small>{{ page.date | date_to_string }} - {% include readtime.html %}</small>
+
+
+</header>
+
+
+
+<article class="post">
+  {{ content }}
+</article>
+
+<span class="splitcontent">&#10540;</span>
+<aside class="related-posts">
+  <br>
+  <h2>You Might Also Like</h2>
+  <br>
+  <ul>
+    {% for post in site.related_posts limit:7 %}
+    {% if post.hidden != true %}
+          <li>
+          <span class="pontuation">❝</span><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+          <br>
+          <small>{{ post.date | date_to_string }}</small>
+          </li>
+          <br>
     {% endif %}
-    <time itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">
-    {{ site.locales[site.default_locale].PostDate }}{{ page.date | date: "%b %-d, %Y" }}
-    </time>
-    </p>
-  </header>
-
-  <article class="post-content" itemprop="articleBody">
-    {{ content }}
-  </article>
-  <hr />
-</div>
-
-
-{% include page_pagination.html%}
-{% include comments.html %}
-
+    {% endfor %}
+  </ul>
+</aside>
+<br>

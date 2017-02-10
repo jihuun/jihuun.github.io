@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>숲사람</title>
+ <link href="http://localhost:8989//atom.xml" rel="self"/>
+ <link href="http://localhost:8989/"/>
+ <updated>2017-02-10T19:50:29+09:00</updated>
+ <id>http://localhost:8989</id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>How I Store My Photos</title>
+   <link href="http://localhost:8989///writing/how-i-store-my-photos"/>
+   <updated>2015-06-08T00:00:00+09:00</updated>
+   <id>http://localhost:8989/writing/how-i-store-my-photos</id>
+   <content type="html">&lt;p&gt;I’m going to start by saying that I’m not a professional photographer and so having redundant backups and other crazy external hard drives doesn’t make any sense to me at this stage. What I will describe here is my personal workflow.&lt;/p&gt;
+
+&lt;p&gt;If you’re starting to shoot now and have only a few folders with photos it shouldn’t take a lot of time to organize your photos. If you shoot for more than a year, I’d recommend taking a Saturday or Sunday and calmly going through it.&lt;/p&gt;
+
+&lt;p&gt;You’ll need Dropbox and Adobe Lightroom. The reason Dropbox and Lightroom work is because Lightroom generates previews of your photos, so you don’t need to have your entire catalog synced with your computer to preview your pictures. I’ll talk more about at the end of this article.&lt;/p&gt;
+
+&lt;h2 id=&quot;lets-do-it&quot;&gt;Let’s Do It&lt;/h2&gt;
+&lt;p&gt;Assuming you already have Dropbox and Lightroom installed and a basic knowledge of how they work, the first thing you need to do is to store/move you Lightroom Catalog inside Dropbox. This is fundamental because the Catalog is where Lightroom stores all the information about where your files are and adjustments you’ve done so you would want to have it on Dropbox so you don’t need to worry about backups.&lt;/p&gt;
+
+&lt;p&gt;To move your Catalog to Dropbox first know where’s located by accessing Catalog Settings window. Then close Lightroom, move your catalog and re-open Lightroom. It will report that the catalog is missing so you’ll need to point the new location. That’s it. The concept also works for moving photos around.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.amazonaws.com/brunomarinho/writing/brunomarinho_storage_02.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;discover-where-your-lightroom-catalog-is-stored&quot;&gt;Discover where your Lightroom Catalog is stored&lt;/h4&gt;
+
+&lt;p&gt;Inside Dropbox I have a main folder called “Photos” and inside of it a sub folder called “Lightroom” (where I store my Catalog) and a sub folder called “Sets” I store all my photos. I keep my Sets strict to one subject for instance: I went on a hike today with a few friends, and when I got back I have some photos. This will become a set whenever I put my SD Card into my computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.amazonaws.com/brunomarinho/writing/brunomarinho_storage_01.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;how-my-folder-looks-like&quot;&gt;How my folder looks like&lt;/h4&gt;
+
+&lt;p&gt;First thing I do after returning from a shooting uploading all photos to Dropbox inside my “Sets” folder. I use “YYYY-MM-DD — set name” as a folder name so it is primarily sorted by year and then month. Once it’s uploaded, I feel like I’m safe.&lt;/p&gt;
+
+&lt;p&gt;Then I import all the pictures into Lightroom. At this stage make sure you have “Build Smart Previews” option checked on the right side. Inside Lightroom, I have created the same “YYYY-MM-DD — set name” structure but instead of folders Lightroom calls its collections. You can optionally create “Collections Set” by Year to keep it easier to browse.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.amazonaws.com/brunomarinho/writing/brunomarinho_storage_05.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;import-dialog-make-sure-you-checked-build-smart-previews&quot;&gt;Import dialog. Make sure you checked “Build Smart Previews”&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.amazonaws.com/brunomarinho/writing/brunomarinho_storage_03.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;collections-inside-lightroom&quot;&gt;Collections inside Lightroom&lt;/h4&gt;
+
+&lt;h2 id=&quot;the-final-trick&quot;&gt;The Final Trick&lt;/h2&gt;
+
+&lt;p&gt;Since Dropbox Pro has 1TB of space and your current hard drive probably doesn’t, you’re probably asking what’s the point of having all those files in my hard drive since it is small?&lt;/p&gt;
+
+&lt;p&gt;Dropbox has a featured called Selective Sync. It’s under preferences, account. It allows you to select which folders you want to sync with your computer. Remember that I told you to “Build Smart Previews” while importing the photos on Lightroom? So that’s why.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.amazonaws.com/brunomarinho/writing/brunomarinho_storage_04.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 style=&quot;margin-top:-50px;&quot;&gt;Selective Sync option under Dropbox Account preferences&lt;/h4&gt;
+
+&lt;p&gt;With Smart Previews, Lightroom allows you to browse all your pictures in Lightroom even if the original pictures are not synced to your hard drive. You can save a lot of space by just “archiving” Sets you’re not editing anymore or exporting anymore.&lt;/p&gt;
+
+&lt;h3 id=&quot;tldr&quot;&gt;TL;DR&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Move/Store your Catalog on Dropbox&lt;/li&gt;
+  &lt;li&gt;Upload and organize all your photos in Set’s&lt;/li&gt;
+  &lt;li&gt;Import, Edit and Export on Lightroom&lt;/li&gt;
+  &lt;li&gt;Use Dropbox selective syncing to keep only what you need&lt;/li&gt;
+  &lt;li&gt;Go shoot and repeat&lt;/li&gt;
+&lt;/ol&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Redesigning Pond5</title>
+   <link href="http://localhost:8989///writing/pond5"/>
+   <updated>2015-04-01T00:00:00+09:00</updated>
+   <id>http://localhost:8989/writing/pond5</id>
+   <content type="html">Right after I left &lt;a href=&quot;https://medium.com/@brunoportnoy/peixe-urbano-explore-the-city-8181f6b1c931&quot; target=&quot;_blank&quot;&gt;Peixe Urbano&lt;/a&gt; on the first quarter of 2013 a friend that was doing some freelance work for Pond5 would have to stop and introduced me to Tom Bennet, the founder and CEO of the company. We’ve got to meet in person since he was in Rio at the time and right. I started to do some freelancing work for the company and then got hired as a full-time employee.
+
+## Understanding The Terrain
+First thing I learned was that Pond5 was a small company with an office in New York and then Prague (by acquiring &lt;a href=&quot;http://techcrunch.com/2013/03/05/pond5-acquires-pixmac/&quot; target=&quot;_blank&quot;&gt;Pixmac&lt;/a&gt;, a Czech startup). The product team was remotely distributed mostly in Europe, so it took me some time to familiarize myself to the different time zones between Europe, USA, and Brazil. But doesn’t like a new challenge especially while meeting and working with folks from different cultures?
+
+Since the company was founded in 2006, I knew that was going to be a very different path to start shipping value. Besides the fact that the majority of company employees didn’t have a lot of experience on building and shipping products. But since I was the new guy I felt like I should do my best to help everyone see the importance of the shipping relevant and valuable features for users while helping turning the founders vision into reality.
+
+Was also interesting that it was the first startup I worked that was already profitable at the time I joined and also a product that helped hundreds of media artists to live by doing what they do best. You should watch &lt;a href=&quot;https://www.youtube.com/watch?v=Lk9nOODGn1o&quot;&gt;this video&lt;/a&gt; that synthesize what &lt;a href=&quot;http://techcrunch.com/2014/07/16/pond5-raises-61-million-series-a-led-by-accel-partners-stripes-group/&quot; target=&quot;_blank&quot;&gt;Pond5&lt;/a&gt; is.
+
+&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*qxBB7LuCtGRY3sZIPZI_ng.png&quot;&gt;
+
+A few months after I started to work at Pond5, the company did the first company summit to everyone that work do remotely across the world could finally meet each other. A great opportunity to me, first to visit New York City and to finally meet and do face-to-face work with all my co-workers.
+
+
+## Cleaning The House
+Pond5 never had a full-time designer taking care of the product so when I joined design assets was disorganized in a huge Dropbox folder and many, many files. I deeply believe that to do good work you have to keep it organized. Otherwise, you’ll spend more time dealing with files than actually getting things done. So I started to cleaning up the folder and trying to put some sense in all the pieces.
+
+After all, we decided to let Dropbox go and use Google Drive since the company was paying for Google accounts. So I grabbed everything from Dropbox and put in an OLD folder and then started from scratch. Took me some time to do it but It was needed. Right after that I start making some UI stylesheets, and pieces from the upcoming redesign.
+
+&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*iUnHqAyl5p0eBWWBneXfIA.png&quot;&gt;
+
+## Starting With The Operator
+I never had the idea of how many people were needed to be there curating media all the day so our users can see what’s best and relevant to them. Was quite shocking to see that the UI that they used 8 hours per day was that bad designed, out-dated and highly inefficient. My first project was to redesign the Curators Dashboard and fight for some relevant new features that would improve the work efficiency of these folks.
+
+I started my research based on some notes that they had about the current dashboard, doing some interviews and watching some screen recording on how they were using their tools and where I could start improving.
+
+&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*n3ugirK4r1o4y7ISbnkBEQ.png&quot;&gt;
+
+### Gamification
+We though that would be interesting for the company and for the curators to have a status of how much they were curating and what was the current status of all medias.
+
+### Artist Badges
+Observing how curators were working, we knew that we should automatically organize different artists into profiles and so we created artist badges to help curators quickly look at long tables and classify the artist. That made it easier to filter the queue having groups of curators focusing on groups of artists.
+
+### Catching Simple Things
+Especially when curating images we observed that curators had to download the image, go to photoshop and zoom in at a 100% to check for sharpening, noise, etc. So we made a quick image view/zoom/drag tool to avoid all that time wasted in between downloading and switching programs.
+
+&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*CpHPoUGMHql20v9lN4wrqA.png&quot;&gt;
+
+## Time to Redesign
+After all the clean up and the ground work with curators, I was ready to start revamping the visual layer of the user-facing product. Redesigning and refactoring are always big decisions in a company life. But there’s a stage where you have to decide and just do it because otherwise you’ll end with a product and engineering team supporting bugs and bad UX instead of innovating and creating value to users.
+
+I always paid attention to the Pond5 User Community, an old forum style system but full of valuable and insightful information about how our users were experiencing the product and what they were wandering next feature wise.
+
+Based on all info I got from our community, analytics and aligned with the business objectives we decided to start with some internal pages first to create a solid foundation. Also having the time to proof and mature the new stuff before revamping the entire home page and other systems like Search Engine or Users Dashboard.
+
+We also knew that our product was outdated for a long time especially comparing with some of the old players and new players on the market. So all the redesign needed to be planned and done as soon as possible to keep existent users and attract new ones.
+
+&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*iUi-By08yzQDfqYb0DbZtw.png&quot;&gt;
+
+### Media Players
+Pond5 supports an extensive set of media types and aspect ratios from photos and videos to PSDs and 3D files. That make all systems complex because we always have to pay attention to the specifics of each media and make sure we’re approaching it the correct way for the users.
+
+&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*SR0ZeCvFIN2w-Y3GTa9YrQ.png&quot;&gt;
+
+### Media Taxonomy
+One of the hardest things to ship at Pond5 was the new taxonomy for the sub-header menu. The challenge was to re-organize all types and subtypes of medias into a new system that also had to be good for upcoming media types in the long term. The strategy was to talk with each media owner and lock the possibilities for each media. Write all down to a spreadsheet and start playing Lego, presenting, getting feedback and repeating until all sides were happy and then putting everything together into a usable UI. We also added smart collections to all media types with the most searched terms.
+
+&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*IdwXw6YmkboQfddaKa05PQ.png&quot;&gt;
+
+### Home Page
+To get to the most recent home page, I did a lot of concepts. Months were doing wireframes, mockups, and A/B testing small sections and observing users reactions to it. We concluded that the home page should always stay fresh, with new content and telling what Pond5 is in a short sentence. Also, it should feature our best artists and some of our seasonal collections and media.
+
+&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*x1UPLfKg2tOryPEb2NrXfA.png&quot;&gt;
+
+## A Global Company
+Working at Pond5 was for sure the biggest cultural experience in my life so far and the foundation for me to start doing remote work. With offices in NY and Prague, working and meeting people from completely different cultures and countries truly and deeply impacted the way I think, plan and do design.
+
+&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*9GUoEMEszku_d3IULvUzrg.jpeg&quot;&gt;
+
+After almost two years I felt that was time to me to do something new, fresh or just work with different people to see what’s next in my career. I moved on to the next chapter and realized that was a good timing cause Pond5 managed to hire the amazing &lt;a href=&quot;http://www.dusko.sk&quot; target=&quot;_blank&quot;&gt;Dusko&lt;/a&gt; to do some contract work right before my exit. I spent my last month helping the transition and letting the things at a good pace.
+
+I truly believe that remote work could be the future of mankind, but that said I don’t believe every person is ready to do remote work yet. It takes a lot of discipline, and you end up by always working a bit more. You can read some notes I made about remote work on &lt;a href=&quot;/writing/remote-work&quot;&gt;this post&lt;/a&gt;.
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Recipppe</title>
+   <link href="http://localhost:8989///writing/recipppe"/>
+   <updated>2014-08-14T00:00:00+09:00</updated>
+   <id>http://localhost:8989/writing/recipppe</id>
+   <content type="html">&lt;p&gt;I saw the company grow from 200 to 1,000+ employees, watched acquisitions, failures, launched new products and had the oportunity to craft every pixel from emails to mobile apps.&lt;/p&gt;
+
+&lt;p&gt;##Small Powerful Team with Great Company Culture
+Even with 1000+ employees, Peixe Urbano product design of three was lean and most important: ego free. A small team of multidisciplinary guys focused not only on visual layers but understanding the present and helping the company to visualize and achieve the future.&lt;/p&gt;
+
+&lt;p&gt;All this translated into sketches, processes, visual and user interface design, information architecture, user experience, hypothesis, experiments and sometimes just spreading our good vibes and having fun with everyone in the company.&lt;/p&gt;
+
+&lt;p&gt;With Peixe Urbano acquiring other companies and launching new products, product design team was the epicenter of company. Delivering solutions for long-term product integration. Creating the useful and fading the useless. Hammering together a complete package of products to help users to achieve the company mission: explore the city.&lt;/p&gt;
+
+&lt;p&gt;##Big Achievements
+Two years is a quite long time for a web product and I’m proud that I had a chance to help the company rebuild the majority of systems that generated true impact on revenue. Also using design thinking not just on product design but to all company roles helping them to fine tune all processes.&lt;/p&gt;
+
+&lt;p&gt;##Designing for Revenue
+I participate in all the major redesigns since the first public release; helping to add up to 14% increase in sales per month. This added about $2.0M every month to the company. The mindset for the redesigns was always a vision of all products working together. With clear tasks, direct CTA’s and clear interface. An interface that you actually can use everyday. Easy to replicate, faster to scale.&lt;/p&gt;
+
+&lt;p&gt;##Designing for Scalability
+I dedicated a long period on building and thinking about every kind of design pattern we may need for present and future. It grew into a big design pattern library with all the components the company may ever need to use. It was also my responsability to organize the files so they can live forever inside the company and be easily used by different people.&lt;/p&gt;
+
+&lt;p&gt;##Data Driven Team
+Our team was never directly responsible for delivering data and statistics but we’ve always had a good time with the data team, learning how to extract and work with relevant metrics.&lt;/p&gt;
+
+&lt;p&gt;When you have more than 1.0M page views per month it seems easy to talk about metrics. But you should take care to avoid vanity ones. By using a lot of softwares like: Google Analytics, ClickTale, CrazyEgg, Optimizely and internal A/B test tools I learned how to see and track metrics that matter. All these observations helped our team to decide on new designs, acting on data and not just assumptions.&lt;/p&gt;
+
+&lt;p&gt;##User Centered
+One of the key principles I have in mind when designing web products is: try to be the customer when designing it. Is this useful? Is this ethical? Does this abuse a dark pattern? And this truly impact on how metrics can be perceived. And how copy can be written.&lt;/p&gt;
+
+&lt;p&gt;I had the opportunity to hear a lot from real customers and understand their concerns. I also had the opportunity to work inside the customer service floor for a day and it helped me to understand real life frustrations and problems which helped to design clever things for our users.&lt;/p&gt;
+
+&lt;p&gt;##Mobile
+Launched in 2011 december, with a young mobile market in Brazil, our first version covered just the basics. But it helped us to get more data about what mobile might represent for sales. In the middle of 2012 we redesigned the app, integrating all products. By this time use and adoption of smartphones increased on the country and we tripled the number of users and sales in few months.&lt;/p&gt;
+
+&lt;p&gt;The first version of the app was built outside the company by a third party. After that the company decided to hire a mobile engineering team and put it side-by-side with our team. With that we’ve been able to design, test and deliver our apps faster and better.&lt;/p&gt;
+
+&lt;p&gt;##Final thoughts
+By join early on Peixe Urbano, I was able to witness the company growing and some times shrinking. From 200 to 1200 employees and 3 different offices. I feel blessed to have been part of important moments for a successful company.&lt;/p&gt;
+
+&lt;p&gt;I was lucky to work with some of the smartests folks I’ve met so far. Singular people incredibly talented and from different parts of the world as United States, Colombia, Argentina and Mexico. Was not only a great work experience but an awesome life and cultural experience.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Cook App</title>
+   <link href="http://localhost:8989///writing/cookapp"/>
+   <updated>2014-06-07T00:00:00+09:00</updated>
+   <id>http://localhost:8989/writing/cookapp</id>
+   <content type="html">&lt;p&gt;I saw the company grow from 200 to 1,000+ employees, watched acquisitions, failures, launched new products and had the oportunity to craft every pixel from emails to mobile apps.&lt;/p&gt;
+
+&lt;p&gt;##Small Powerful Team with Great Company Culture
+Even with 1000+ employees, Peixe Urbano product design of three was lean and most important: ego free. A small team of multidisciplinary guys focused not only on visual layers but understanding the present and helping the company to visualize and achieve the future.&lt;/p&gt;
+
+&lt;p&gt;All this translated into sketches, processes, visual and user interface design, information architecture, user experience, hypothesis, experiments and sometimes just spreading our good vibes and having fun with everyone in the company.&lt;/p&gt;
+
+&lt;p&gt;With Peixe Urbano acquiring other companies and launching new products, product design team was the epicenter of company. Delivering solutions for long-term product integration. Creating the useful and fading the useless. Hammering together a complete package of products to help users to achieve the company mission: explore the city.&lt;/p&gt;
+
+&lt;p&gt;##Big Achievements
+Two years is a quite long time for a web product and I’m proud that I had a chance to help the company rebuild the majority of systems that generated true impact on revenue. Also using design thinking not just on product design but to all company roles helping them to fine tune all processes.&lt;/p&gt;
+
+&lt;p&gt;##Designing for Revenue
+I participate in all the major redesigns since the first public release; helping to add up to 14% increase in sales per month. This added about $2.0M every month to the company. The mindset for the redesigns was always a vision of all products working together. With clear tasks, direct CTA’s and clear interface. An interface that you actually can use everyday. Easy to replicate, faster to scale.&lt;/p&gt;
+
+&lt;p&gt;##Designing for Scalability
+I dedicated a long period on building and thinking about every kind of design pattern we may need for present and future. It grew into a big design pattern library with all the components the company may ever need to use. It was also my responsability to organize the files so they can live forever inside the company and be easily used by different people.&lt;/p&gt;
+
+&lt;p&gt;##Data Driven Team
+Our team was never directly responsible for delivering data and statistics but we’ve always had a good time with the data team, learning how to extract and work with relevant metrics.&lt;/p&gt;
+
+&lt;p&gt;When you have more than 1.0M page views per month it seems easy to talk about metrics. But you should take care to avoid vanity ones. By using a lot of softwares like: Google Analytics, ClickTale, CrazyEgg, Optimizely and internal A/B test tools I learned how to see and track metrics that matter. All these observations helped our team to decide on new designs, acting on data and not just assumptions.&lt;/p&gt;
+
+&lt;p&gt;##User Centered
+One of the key principles I have in mind when designing web products is: try to be the customer when designing it. Is this useful? Is this ethical? Does this abuse a dark pattern? And this truly impact on how metrics can be perceived. And how copy can be written.&lt;/p&gt;
+
+&lt;p&gt;I had the opportunity to hear a lot from real customers and understand their concerns. I also had the opportunity to work inside the customer service floor for a day and it helped me to understand real life frustrations and problems which helped to design clever things for our users.&lt;/p&gt;
+
+&lt;p&gt;##Mobile
+Launched in 2011 december, with a young mobile market in Brazil, our first version covered just the basics. But it helped us to get more data about what mobile might represent for sales. In the middle of 2012 we redesigned the app, integrating all products. By this time use and adoption of smartphones increased on the country and we tripled the number of users and sales in few months.&lt;/p&gt;
+
+&lt;p&gt;The first version of the app was built outside the company by a third party. After that the company decided to hire a mobile engineering team and put it side-by-side with our team. With that we’ve been able to design, test and deliver our apps faster and better.&lt;/p&gt;
+
+&lt;p&gt;##Final thoughts
+By join early on Peixe Urbano, I was able to witness the company growing and some times shrinking. From 200 to 1200 employees and 3 different offices. I feel blessed to have been part of important moments for a successful company.&lt;/p&gt;
+
+&lt;p&gt;I was lucky to work with some of the smartests folks I’ve met so far. Singular people incredibly talented and from different parts of the world as United States, Colombia, Argentina and Mexico. Was not only a great work experience but an awesome life and cultural experience.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>UI Mockups and GIFs</title>
+   <link href="http://localhost:8989///writing/ui-mockups-and-gifs"/>
+   <updated>2014-04-16T00:00:00+09:00</updated>
+   <id>http://localhost:8989/writing/ui-mockups-and-gifs</id>
+   <content type="html">&lt;p&gt;I would say that animated mockups is the new flat design. Beside it being trendy it is also good to see a lot of people using animation skills in to better communicate visual ideas. But keep in mind that animation does not replace interactive mockups and user testing. These should always be your goals to achieve a great user experience.&lt;/p&gt;
+
+&lt;h2 id=&quot;after-effects-is-not-hard-to-learn&quot;&gt;After Effects is not hard to learn&lt;/h2&gt;
+&lt;p&gt;After Effects might look intimidating but it’s not that hard to use for doing basic stuff. While you can import a PSD direct to After Effects interface I prefer to export PNG assets from my original PSD as I need them and organize it inside the After Effects composition. Exporting as PNG is also good if you use Sketch or another tool. If you never used After Effects I will explain the 3 basic concepts: Composition, Timeline/Keyframes and Render.&lt;/p&gt;
+
+&lt;h3 id=&quot;composition&quot;&gt;Composition&lt;/h3&gt;
+&lt;p&gt;To simplify things, imagine composition as a PSD file. Meaning a composition has layers and each layer has a behavior, style, and so on. And it becomes really useful to simulate positioning or camera movements without having to touch your original mockup animation since you can place compositions inside other compositions.&lt;/p&gt;
+
+&lt;h3 id=&quot;timelinekeyframes&quot;&gt;Timeline/Keyframes&lt;/h3&gt;
+&lt;p&gt;Imagine each keyframe as a representation of your layer in the timeline. It might be position, opacity, scale etc. Set an initial keyframe, move the scrubber, do what you want to do with the layer and set your keyframe again. In the end you’ll have two keyframes X time.&lt;/p&gt;
+
+&lt;video loop=&quot;&quot; video=&quot;&quot; autoplay=&quot;&quot; data-image-id=&quot;1*gyVAkOFqKFOgoXleZxssXw.gif&quot; data-width=&quot;994&quot; data-height=&quot;618&quot;&gt;&lt;source src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1600/1*gyVAkOFqKFOgoXleZxssXw.ogv&quot; type=&quot;video/ogg&quot; /&gt;&lt;source src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1600/1*gyVAkOFqKFOgoXleZxssXw.mp4&quot; type=&quot;video/mp4&quot; /&gt;Your browser does not support the video tag.&lt;/video&gt;
+
+&lt;h4 id=&quot;on-the-left-we-have-the-properties-position-scale-rotation-and-opacity-and-on-the-right-the-keyframes-on-the-timeline&quot;&gt;On the left we have the properties (position, scale, rotation and opacity) and on the right the keyframes on the timeline&lt;/h4&gt;
+
+&lt;p&gt;Observe that as I drag the timeline cursor it automatcally renders the values from 0% to 100% showing a nice fading effect.&lt;/p&gt;
+
+&lt;p&gt;Doing a right click on the keyframe shows you even more options like easing effects. You can do Ease In and Ease Out. Also a double click on a keyframe will allow you to quickly change the keyframe value.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*WFdFexwYcEidQqfZHuiAKw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;render&quot;&gt;Render&lt;/h2&gt;
+&lt;p&gt;This perhaps is the most scary thing in After Effects at first glance. To someone who never used the app before, it’s a lot of information but the concept is simple: it exports your final file to a desired folder using the choosen video format.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*CVR6RINgwSMqV13J3_o4DA.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;to-export-your-movie-you-need-to-first-add-it-to-render-queue&quot;&gt;To export your movie you need to first add it to Render Queue&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*bZbgCGwZVOzwegxhRxMALw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;once-you-add-to-render-queue-youll-get-this-screen-click-on-lossless-to-setup-the-movie-format&quot;&gt;Once you “Add to Render Queue” you’ll get this screen. Click on Lossless to setup the movie format&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*rUUL83VPgt4jucF_BLFm4w.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;make-sure-you-turn-audio-output-off-and-under-format-otions-select-h-264-codec-it-will-make-your-file-smaller-if-still-big-to-load-on-photoshop-try-play-with-quality-settings&quot;&gt;Make sure you turn Audio Output Off and under Format Otions select H 264 codec. It will make your file smaller. If still big to load on photoshop try play with quality settings&lt;/h4&gt;
+
+&lt;p&gt;Now that you have the basics, all that’s left is telling a story by animating your mockups. So try it yourself before you say you can’t do it. Start with simple things like a transition between two screens and them move on to more complex things like delete a list item.&lt;/p&gt;
+
+&lt;p&gt;Also keep in mind that is just 5% of After Effects. It also lets you animate things by writing code. Take a look at this blog post by Morten Just where he does a pretty good job on prototyping Facebook Home on After Effects. It covers a lot of advanced tips so if you want to learn more is a good start.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-basic-template-to-start&quot;&gt;A Basic Template to Start&lt;/h2&gt;
+&lt;p&gt;This post actually began because I’ve put together a really basic template for iPhone Apps that I want to share. While it’s simple it also has some options like colors (gray, gold, white) and a diagonal version. Also you can change the background color.&lt;/p&gt;
+
+&lt;p&gt;To use it you just have to touch “Your Mockup” composition and then use the “Render Angle 800x600px” or “Render Front 800x600px” compositions to generate video files.&lt;/p&gt;
+
+&lt;p&gt;The template also has a basic demo app with animations and I believe it will help you to see how basic animation is done and helps to communicate some interaction design.&lt;/p&gt;
+
+&lt;p&gt;→ &lt;a href=&quot;http://cloud.brunomarinho.com/0E3r2B052d2N&quot; target=&quot;_blank&quot;&gt;Download it now&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;generating-animated-gifs&quot;&gt;Generating Animated GIFs&lt;/h2&gt;
+&lt;p&gt;Sadly, After Effects does not have a built-in GIF export so after you render your video I found that the simplest way is to open it inPhotoshop and use the Save for Web dialog to export as an animated GIF.&lt;/p&gt;
+
+&lt;video loop=&quot;&quot; video=&quot;&quot; autoplay=&quot;&quot; data-image-id=&quot;1*HGrYpGM-YCPlkM8Mwvif_w.gif&quot; data-width=&quot;800&quot; data-height=&quot;600&quot;&gt;&lt;source src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1600/1*HGrYpGM-YCPlkM8Mwvif_w.ogv&quot; type=&quot;video/ogg&quot; /&gt;&lt;source src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1600/1*HGrYpGM-YCPlkM8Mwvif_w.mp4&quot; type=&quot;video/mp4&quot; /&gt;Your browser does not support the video tag.&lt;/video&gt;
+
+&lt;video loop=&quot;&quot; video=&quot;&quot; autoplay=&quot;&quot; data-image-id=&quot;1*LIfLJ9u_iNBmaLSDVmEj7A.gif&quot; data-width=&quot;800&quot; data-height=&quot;600&quot;&gt;&lt;source src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1600/1*LIfLJ9u_iNBmaLSDVmEj7A.ogv&quot; type=&quot;video/ogg&quot; /&gt;&lt;source src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1600/1*LIfLJ9u_iNBmaLSDVmEj7A.mp4&quot; type=&quot;video/mp4&quot; /&gt;Your browser does not support the video tag.&lt;/video&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Looking for Inspiration</title>
+   <link href="http://localhost:8989///writing/looking-for-inspiration"/>
+   <updated>2014-01-05T00:00:00+09:00</updated>
+   <id>http://localhost:8989/writing/looking-for-inspiration</id>
+   <content type="html">&lt;p&gt;Very often people always ask me: how you always find cool things to share or where do you find inspiration? So I decided to write a quick post with some links that allow me to stay tuned and inspired.&lt;/p&gt;
+
+&lt;h2 id=&quot;design&quot;&gt;Design&lt;/h2&gt;
+&lt;p&gt;My world spins around designed things and I’m fascinated about how design is more and more starting to be perceived by normal people. To keep me inspired when designing new stuff I feed my brain with different niches of design.&lt;/p&gt;
+
+&lt;p&gt;→ &lt;a href=&quot;https://www.vitsoe.com/gb/about/dieter-rams&quot; target=&quot;_blank&quot;&gt;Dieter Rams&lt;/a&gt;&lt;br /&gt;
+→ &lt;a href=&quot;http://www.blessthisstuff.com/&quot; target=&quot;_blank&quot;&gt;Bless This Stuff&lt;/a&gt;&lt;br /&gt;
+→ &lt;a href=&quot;http://www.designsponge.com/&quot; target=&quot;_blank&quot;&gt;Design Sponge&lt;/a&gt;&lt;br /&gt;
+→ &lt;a href=&quot;http://www.kinfolk.com/&quot; target=&quot;_blank&quot;&gt;Kinfolk&lt;/a&gt;&lt;br /&gt;
+→ &lt;a href=&quot;https://dribbble.com/&quot; target=&quot;_blank&quot;&gt;Dribbble&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;photography&quot;&gt;Photography&lt;/h2&gt;
+&lt;p&gt;I learned the basics of photography back in 2003 on a Nikon FM-10. It soon became one of the things that I more pleasant to do, specially when I’m traveling. Also it allows me to clear my mind and track moments of my life.&lt;/p&gt;
+
+&lt;p&gt;→ &lt;a href=&quot;http://www.uelsmann.net/&quot; target=&quot;_blank&quot;&gt;Uelsmann&lt;/a&gt;&lt;br /&gt;
+→ &lt;a href=&quot;https://en.wikipedia.org/wiki/Henri_Cartier-Bresson&quot; target=&quot;_blank&quot;&gt;Henri Cartier-Bresson&lt;/a&gt;&lt;br /&gt;
+→ &lt;a href=&quot;http://www.amazonasimages.com/&quot; target=&quot;_blank&quot;&gt;Sebastião Salgado&lt;/a&gt;&lt;br /&gt;
+→ &lt;a href=&quot;http://www.davidloftus.com/&quot; target=&quot;_blank&quot;&gt;David Loftus&lt;/a&gt;&lt;br /&gt;
+→ &lt;a href=&quot;http://tinker-street.com/&quot; target=&quot;_blank&quot;&gt;Tinker Street&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;cook&quot;&gt;Cook&lt;/h2&gt;
+&lt;p&gt;Since 2007, I’ve been cooking almost everyday of my life. Sometimes 3 meals in the same day. I’m always seeking for new methods or revisiting the same recipes adding new flavors just to see what happens.&lt;/p&gt;
+
+&lt;p&gt;→ &lt;a href=&quot;http://www.jamieoliver.com/&quot; target=&quot;_blank&quot;&gt;Jamie Oliver&lt;/a&gt;&lt;br /&gt;
+→ &lt;a href=&quot;https://www.youtube.com/user/gennarocontaldo&quot; target=&quot;_blank&quot;&gt;Gennaro Contaldo&lt;/a&gt;&lt;br /&gt;
+→ &lt;a href=&quot;http://smittenkitchen.com/&quot; target=&quot;_blank&quot;&gt;Smitten Kitchen&lt;/a&gt;&lt;br /&gt;
+→ &lt;a href=&quot;http://www.loveandlemons.com/&quot; target=&quot;_blank&quot;&gt;Love and Lemons&lt;/a&gt;&lt;br /&gt;
+→ &lt;a href=&quot;http://brooklynbrewshop.com/&quot; target=&quot;_blank&quot;&gt;Brooklyn Brew Shop&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;writing&quot;&gt;Writing&lt;/h2&gt;
+&lt;p&gt;This is recent and I don’t know if I really consider it a hobby since I’m trying to build an audience and develop a personal style. I’m using it as a way to master my written English and also it sometimes helps me to think and decide things clearly.&lt;/p&gt;
+
+&lt;p&gt;→ &lt;a href=&quot;http://nathanbarry.com/&quot; target=&quot;_blank&quot;&gt;Nathan Berry&lt;/a&gt;&lt;br /&gt;
+→ &lt;a href=&quot;http://sachagreif.com/&quot; target=&quot;_blank&quot;&gt;Sasha Greif&lt;/a&gt;&lt;br /&gt;
+→ &lt;a href=&quot;http://frankchimero.com/&quot; target=&quot;_blank&quot;&gt;Frank Chimero&lt;/a&gt;&lt;br /&gt;
+→ &lt;a href=&quot;http://www.minimallyminimal.com/&quot; target=&quot;_blank&quot;&gt;Andrew Kim&lt;/a&gt;&lt;br /&gt;
+→ &lt;a href=&quot;http://joshlong.cc/&quot; target=&quot;_blank&quot;&gt;Josh Long&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Peixe Urbano</title>
+   <link href="http://localhost:8989///writing/peixe-urbano"/>
+   <updated>2014-01-04T00:00:00+09:00</updated>
+   <id>http://localhost:8989/writing/peixe-urbano</id>
+   <content type="html">&lt;p&gt;I saw the company grow from 200 to 1,000+ employees, watched acquisitions, failures, launched new products and had the oportunity to craft every pixel from emails to mobile apps.&lt;/p&gt;
+
+&lt;p&gt;##Small Powerful Team with Great Company Culture
+Even with 1000+ employees, Peixe Urbano product design of three was lean and most important: ego free. A small team of multidisciplinary guys focused not only on visual layers but understanding the present and helping the company to visualize and achieve the future.&lt;/p&gt;
+
+&lt;p&gt;All this translated into sketches, processes, visual and user interface design, information architecture, user experience, hypothesis, experiments and sometimes just spreading our good vibes and having fun with everyone in the company.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*jeHPX0BcKM3kd945wbtFEw.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With Peixe Urbano acquiring other companies and launching new products, product design team was the epicenter of company. Delivering solutions for long-term product integration. Creating the useful and fading the useless. Hammering together a complete package of products to help users to achieve the company mission: explore the city.&lt;/p&gt;
+
+&lt;p&gt;##Big Achievements
+Two years is a quite long time for a web product and I’m proud that I had a chance to help the company rebuild the majority of systems that generated true impact on revenue. Also using design thinking not just on product design but to all company roles helping them to fine tune all processes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*KwoeSslF9SkAC06w4xg6KA.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Designing for Revenue
+I participate in all the major redesigns since the first public release; helping to add up to 14% increase in sales per month. This added about $2.0M every month to the company. The mindset for the redesigns was always a vision of all products working together. With clear tasks, direct CTA’s and clear interface. An interface that you actually can use everyday. Easy to replicate, faster to scale.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*wNj2qubetaF55_NQ4KL3UQ.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Designing for Scalability
+I dedicated a long period on building and thinking about every kind of design pattern we may need for present and future. It grew into a big design pattern library with all the components the company may ever need to use. It was also my responsability to organize the files so they can live forever inside the company and be easily used by different people.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*KXrHOyHUyu8iUzoqEZorpw.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Data Driven Team
+Our team was never directly responsible for delivering data and statistics but we’ve always had a good time with the data team, learning how to extract and work with relevant metrics.&lt;/p&gt;
+
+&lt;p&gt;When you have more than 1.0M page views per month it seems easy to talk about metrics. But you should take care to avoid vanity ones. By using a lot of softwares like: Google Analytics, ClickTale, CrazyEgg, Optimizely and internal A/B test tools I learned how to see and track metrics that matter. All these observations helped our team to decide on new designs, acting on data and not just assumptions.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*meFirFYUQ9uwtjQHTW1fQA.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##User Centered
+One of the key principles I have in mind when designing web products is: try to be the customer when designing it. Is this useful? Is this ethical? Does this abuse a dark pattern? And this truly impact on how metrics can be perceived. And how copy can be written.&lt;/p&gt;
+
+&lt;p&gt;I had the opportunity to hear a lot from real customers and understand their concerns. I also had the opportunity to work inside the customer service floor for a day and it helped me to understand real life frustrations and problems which helped to design clever things for our users.&lt;/p&gt;
+
+&lt;p&gt;##Mobile
+Launched in 2011 december, with a young mobile market in Brazil, our first version covered just the basics. But it helped us to get more data about what mobile might represent for sales. In the middle of 2012 we redesigned the app, integrating all products. By this time use and adoption of smartphones increased on the country and we tripled the number of users and sales in few months.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*9uYaDxacpn4RBRkj0ey-vQ.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first version of the app was built outside the company by a third party. After that the company decided to hire a mobile engineering team and put it side-by-side with our team. With that we’ve been able to design, test and deliver our apps faster and better.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/2000/1*rowflPoZvwP5IPuxSAIVbw.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Final thoughts
+By join early on Peixe Urbano, I was able to witness the company growing and some times shrinking. From 200 to 1200 employees and 3 different offices. I feel blessed to have been part of important moments for a successful company.&lt;/p&gt;
+
+&lt;p&gt;I was lucky to work with some of the smartests folks I’ve met so far. Singular people incredibly talented and from different parts of the world as United States, Colombia, Argentina and Mexico. Was not only a great work experience but an awesome life and cultural experience.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Remote Work</title>
+   <link href="http://localhost:8989///writing/remote-work"/>
+   <updated>2013-12-05T00:00:00+09:00</updated>
+   <id>http://localhost:8989/writing/remote-work</id>
+   <content type="html">&lt;p&gt;I’ve been working remotely for 6 months and in this time I’ve been collecting some notes to share about pros and cons of this experience so far.&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-out-of-home-makes-you-sane-and-inspired&quot;&gt;Getting Out of Home Makes You Sane and Inspired&lt;/h2&gt;
+&lt;p&gt;Go out for lunch sometimes, go ride your bike, travel and work from another place, go walk around and shoot a different scene or just cook a new recipe for lunch. I found that it’s important to see new things, interact with new random people and breath fresh air. It’s not new that our brain need some rest in order to keep everything right so let it rest.&lt;/p&gt;
+
+&lt;h2 id=&quot;split-creative-and-boring-work-for-the-right-time&quot;&gt;Split Creative and Boring Work for the Right Time&lt;/h2&gt;
+&lt;p&gt;Every kind of work has some boring stuff to do. As a professional you have to know how to deal with that. How to manage the creative work for times when you feel inspired and be comfortable to spend some time focused doing the boring stuff. I always recommend listening to music for the boring stuff. Allows you to abstract the fact you’ll be doing boring stuff for the next hour.&lt;/p&gt;
+
+&lt;h2 id=&quot;youll-miss-having-workmates&quot;&gt;You’ll Miss Having Workmates&lt;/h2&gt;
+&lt;p&gt;Specially on the lunch time you’ll miss having different people to talk about work or life stuff. Not saying that remote work don’t provide that but face-to-face communication will always beat Skype/Slack&lt;/p&gt;
+
+&lt;h2 id=&quot;be-prepared-to-work-more-hours&quot;&gt;Be Prepared to Work More Hours&lt;/h2&gt;
+&lt;p&gt;With no physical distance between you and your work place sometimes you can say you gonna just to check your emails or read some stuff but somehow in a magic way you always end doing some work.&lt;/p&gt;
+
+&lt;h2 id=&quot;you-cant-hug-the-world&quot;&gt;You Can’t Hug The World&lt;/h2&gt;
+&lt;p&gt;Will be always companies willing to work with you. I have a personal point of view that you should always listen for new things but before join in new adventures you have to think twice about how much work can you handle together. Remember that you’ll naturally work more hours so if you try to get more work that you actually can handle you’ll ending up by losing clients.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Get It Done</title>
+   <link href="http://localhost:8989///writing/get-it-done"/>
+   <updated>2013-11-12T00:00:00+09:00</updated>
+   <id>http://localhost:8989/writing/get-it-done</id>
+   <content type="html">&lt;p&gt;This gets even worse if you work in a big company when you have colleagues or teammates arriving to your desk to ask something or sometimes just to do some easy talk. Some studies talk about 20-25 minutes to recover the entire focus. Multiply this to the number of interruptions and you can see that sometimes you just lost you work day.&lt;/p&gt;
+
+&lt;h2 id=&quot;define-your-tasks-and-press-play&quot;&gt;Define Your Tasks and Press Play&lt;/h2&gt;
+&lt;p&gt;You probably heard about the Pomodoro Technique. It’s a simple process to help you improve your productivity and focus. If not take a look at the &lt;a href=&quot;http://baomee.info/pdf/technique/1.pdf&quot; target=&quot;_blank&quot;&gt;PDF&lt;/a&gt;, it’s free and does not hurt you to read. It inspired me to mix music and focus.&lt;/p&gt;
+
+&lt;p&gt;Start by creating every morning or on the night before a list of tasks you wanna complete on the day. Be honest with yourself. You can’t do more than one task at the same time so break them until you have a clear and honest list. I recommend using Trello or tasks on gmail.&lt;/p&gt;
+
+&lt;p&gt;Now put some music to play. I usually hear full albums and that allows me to focus in general for 60-120 minutes depending of the album length. In this time don’t allow people or other things to distract you. Allow your mind to stay focused.&lt;/p&gt;
+
+&lt;p&gt;Not every style of music is appropriate to your focus time. In general the mood of the music might affect your own mood. There’s a lot of people who works well listening to aggressive music but calm and positive music would always perform better.&lt;/p&gt;
+
+&lt;p&gt;After a period of focus the reward could be reading something useful, going for a stretch and walk around the office, drink a long sip of water or just relax for 5 minutes before dive into another task and perhaps another album.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Why I’m Leaving</title>
+   <link href="http://localhost:8989///writing/why-im-leaving"/>
+   <updated>2013-05-11T00:00:00+09:00</updated>
+   <id>http://localhost:8989/writing/why-im-leaving</id>
+   <content type="html">&lt;p&gt;I saw the company grow from 200 to 1,000+ employees, watched acquisitions, failures, launched new products and crafted every kind of pixel from emails to mobile apps — now I feel that is time to move on.&lt;/p&gt;
+
+&lt;h2 id=&quot;back-to-2011&quot;&gt;Back to 2011&lt;/h2&gt;
+&lt;p&gt;It was a very fun and inspirational journey that started in January 2011 because an answer I left on Quora about who are the best designers in town. And it ended with an interview that gave me the opportunity to be the second designer on the Product Design team. Another interesting thing was that I didn’t even know if I could speak fluent English. But after some interviews and one month of work, my English started to come.&lt;/p&gt;
+
+&lt;p&gt;Even with 1000+ employees and 5 live products, the team hit maximum of 3 “ego free” guys. It was a great team to work on our ideals and our ideas were really well connected. The value of our team was having the clear vision of what the company could be in the future and design it. And the most important: having fun :)&lt;/p&gt;
+
+&lt;p&gt;Also, it was an international experience because the product and engineering team included foreigners from USA and South America countries. So it was a great oportunity to interact with people with different cultures and learn a lot form them at the same time.&lt;/p&gt;
+
+&lt;h2 id=&quot;ok-buddy-but-why-are-you-leaving&quot;&gt;“Ok buddy, but why are you leaving?”&lt;/h2&gt;
+&lt;p&gt;The main reason is that I believe my mission in the company is accomplished. I did enough to be proud and I have this feeling that I’m ready to move on with new work/life experiences.&lt;/p&gt;
+
+&lt;p&gt;It’s not just about leaving the company, but also about getting out of my comfort zone. So I decided that my goal is to get a job in the U.S., get a work visa and live there for at least 2–4 years, maybe meet the right people and start something or maybe finding the right company and helping them. I will spend the rest of this year focusing on this objective.&lt;/p&gt;
+
+&lt;p&gt;And living outside my country, Brazil, will help me master my written and spoken English. It will also will help me to experience other cultures, and help me connect and learn from new people. I believe it will have a deep impact on my career and how I work and get inspired.&lt;/p&gt;
+
+&lt;h2 id=&quot;fear-of-failure&quot;&gt;Fear of Failure?&lt;/h2&gt;
+&lt;p&gt;No way to fail on this goal. There’s no anxiety. I feel like it’s much better to try and see what happens than regret never having tried. And I believe it’s the perfect time to do it. I just got married and we don’t have plans for kids yet, so why not?&lt;/p&gt;
+
+&lt;p&gt;The best thing out of all this is my wife understands it and supports me. Plus, I spoke with some close, and work, friends and they support my decision. So let’s do it!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Everybody is a Designer</title>
+   <link href="http://localhost:8989///writing/everybody-is-a-designer"/>
+   <updated>2013-04-17T00:00:00+09:00</updated>
+   <id>http://localhost:8989/writing/everybody-is-a-designer</id>
+   <content type="html">&lt;p&gt;There’s no better time to be a designer. It’s mainstream and people think that it’s easy to join a startup and design the next big solution to the world. And some times it just becomes the next big problem to a niche.&lt;/p&gt;
+
+&lt;h2 id=&quot;everyone-wants-to-be-a-designer&quot;&gt;Everyone wants to be a designer&lt;/h2&gt;
+&lt;p&gt;With smartphones and tablets everyone started to consume more design. Not just thinking about physical devices but about all apps that exist within those devices.&lt;/p&gt;
+
+&lt;p&gt;From mom’s to CEO’s, more than never, people want to give opinions and say how things should look or work. Why? Because it’s too easy to say something when you’re outside the problem. It’s easy to redesign Facebook or Twitter and post it on Dribbble. Easy to critique Apple’s skeumorphism. But do these people really understand the problems that these companies are trying to solve? Do they have enough information about what they’re doing for the future?&lt;/p&gt;
+
+&lt;p&gt;One of the core values of design is a clear vision of what it could be. It all should start with a function. A reason to exist. To praise possible users. This requires time and maturity. Maturity to understand, to design for businesses, for users. Creating beautiful flat design to show it to the design community is not design. It’s art.&lt;/p&gt;
+
+&lt;h2 id=&quot;outsourced-vs-handmade-design&quot;&gt;Outsourced vs Handmade Design&lt;/h2&gt;
+&lt;p&gt;As an amateur chef, I like to compare design and food. You can apply lean concepts and do quick and good food. But when you dive in and understand ingredients characteristics, how the heat iterates with the food and more advanced stuff, it starts to become more and more close to perfection. A great example of life devoted to food is &lt;a href=&quot;http://www.imdb.com/title/tt1772925/&quot; target=&quot;_blank&quot;&gt;Jiro&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can outsource design, hire companies to do it. But when you put great designers together inside your company you reach another level of iteration and probably you will start to solve real problems with great pixel solutions. It’s all about handmade design, the art of really digging deep into the pixel work, with precision and love for every pixel.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-future&quot;&gt;The Future&lt;/h2&gt;
+&lt;p&gt;Since we are in an age where everyone is consuming more and more design every day, I started to notice that people can differentiate between really bad design and really good design.&lt;/p&gt;
+
+&lt;p&gt;But in the end, they should understand that great designers dedicate a lot of time to improve skills and make things functional. So they deserve some respect. Like a doctor when he decides you have to do a surgery or Jiro when he serves you the best sushi he can.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>(not) King's Speech</title>
+   <link href="http://localhost:8989///writing/not-kings-speech"/>
+   <updated>2012-06-11T00:00:00+09:00</updated>
+   <id>http://localhost:8989/writing/not-kings-speech</id>
+   <content type="html">&lt;p&gt;A while ago I went to &lt;a href=&quot;http://startupweekend.org/&quot; target=&quot;_blank&quot;&gt;Startup Weekend&lt;/a&gt; Rio and, as a shy guy, I was embarrassed to do a public pitch. 60 seconds to “sell” an idea and motivate people join and build something.&lt;/p&gt;
+
+&lt;p&gt;As one of the last three to pitch an idea, I became increasingly afraid to get on “stage” in front of the crowd and talk! With some friends and my girlfriend motivating me, I finally made it up there, and it was pretty cool. People liked and voted on it, and my idea was approved as one of the projects for the weekend.&lt;/p&gt;
+
+&lt;p&gt;But Houston, we have a problem! Ten people voted for my idea, but only one guy and my girlfriend wanted to help me for this weekend. We were the smallest team on the weekend. So with one designer, one illustrator, and one developer we delegated the tasks and focused on finishing them! On Sunday around noon, our team had prepared something that I believe was good enough to show to the judges.&lt;/p&gt;
+
+&lt;h2 id=&quot;pitch-insights&quot;&gt;Pitch Insights&lt;/h2&gt;
+&lt;p&gt;Before lunch, Dave McClure spoke for 30 minutes about &lt;a href=&quot;http://www.slideshare.net/dmc500hats/how-to-pitch-a-vc-sept-2010&quot; target=&quot;_blank&quot;&gt;best practices when presenting an idea&lt;/a&gt;. And I just noted the main points he gave and then started to make the keynote. Time to get hands-on and create the first keynote in my life. First, I had to go to the Mac App Store and download the Keynote app. Downloading… Installing… Done. Cool. And now?&lt;/p&gt;
+
+&lt;p&gt;I thought “Ok, it’s my first time. Let’s just follow McClure’s topics and as he said,  “Investors don’t have time to hear you talking so be quick or be dead! Be short and objective.” (Not exactly his words, but what my brain grabbed.) Below you can see what I outlined to start my keynote.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Intro Image&lt;/li&gt;
+  &lt;li&gt;Problem&lt;/li&gt;
+  &lt;li&gt;Solution / Demo&lt;/li&gt;
+  &lt;li&gt;For Who&lt;/li&gt;
+  &lt;li&gt;Business Model&lt;/li&gt;
+  &lt;li&gt;Proprietary Tech / Expertise&lt;/li&gt;
+  &lt;li&gt;Competition&lt;/li&gt;
+  &lt;li&gt;How to Get Customers&lt;/li&gt;
+  &lt;li&gt;My Team&lt;/li&gt;
+  &lt;li&gt;Why Funding?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So I tried to cover all quickly, and it was easy since I already had all on my mind. I liked it very much. So with my keynote ready, the first startups started to pitch, and I was anxious because of having to face all the people and this time for more than 60 seconds.&lt;/p&gt;
+
+&lt;p&gt;Startups had 5 minutes to pitch and other 3 to answer questions from judges. And by the way one of the judges was the CEO of the company where I work. So much pressure! So much in my head. And with only one team left before my pitch there were some technical problems and Bedy Yang (who organized the event) asked me if we can present right now! I remember I said: “Ok, no problem…”&lt;/p&gt;
+
+&lt;p&gt;The next thing I notice was everyone laughing and applauding as I speak… WTF? Dave McClure liked my idea and much more importantly, he praised &lt;a href=&quot;http://www.slideshare.net/brunoportnoy/onde-kh-where-to-poop-pitch-keynote-at-swrio&quot; target=&quot;_blank&quot;&gt;the first keynote I’ve done in my life&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;##And…
+It was a great experience, and I recommend it to everyone. It’s a great event to make friends, network, eat good food, and of course, spread your ideas to the world. Thanks @annachedid and @leozeba to be part of this!&lt;/p&gt;
+
+&lt;p&gt;So, don’t let your shyness kill your ideas! I’m still shy and afraid of public speaking but after that experience I feel much better about this!&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

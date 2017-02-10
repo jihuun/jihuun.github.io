@@ -1,37 +1,26 @@
-<!DOCTYPE html>
-<html>
+{% include header.html %}
 
-{% include head.html %}
 
-<body>
+<body class="animated fadeIn">
+<div class="container content">
+<header class="masthead" style="background-image: url(https://s3.amazonaws.com/brunomarinho/assets/profile-photo.jpg);">
 
-<div class="container">
+    <!-- Navigation Loop -->
+    {% include nav.html %}
 
-  {% include header.html %}
+    <div class="dot"></div>
+    <h1 class="big-serif">Bruno<br>Marinho</h1>
+    <h2 class="small-sans"><a href="{{ site.url }}/about">is</a> a designer helping companies to build<br>
+      better products to their users. Currently<br>
+      disrupting the future of crowdfunding at <a href="http://www.trycelery.com" target="_blank">Celery</a>.</h2>
 
-  {% if site.default_column == "two" %}  
+</header>
 
-  <div class="page-content col-sm-8">
-    {{ content }}
-    {% include post_pagination.html %}
-  </div>
-  {% include sidebar.html %}
+{{ content }}
 
-  {% else %}
-
-  <div class="page-content">
-    <div class="wrapper">
-      {{ content }}
-    </div>
-  </div>
-  {% include post_pagination.html %}
-
-  {% endif %}
-
-  {% include footer.html %}
-
-</div>
+{% include footer.html %}
 
 </body>
+
 
 </html>

@@ -1,18 +1,14 @@
 ---
 layout: default
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+<section class="page-section selected-writing">
+	<h1 class="page-title" id="foo">{{ page.title }}</h1>
+	<div style="text-align: left;">
 
-  <article class="post-content about"> 
     {{ content }}
-  </article>
+	</div>
 
-  {% if page.comments %}
-  {% include comments.html %}
-  {% endif %}
+</section>
 
-</div> 
+

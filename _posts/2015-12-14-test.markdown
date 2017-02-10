@@ -1,6 +1,0 @@
----
-published: true
-title: TEST
-layout: post
----
-테스트 test@@

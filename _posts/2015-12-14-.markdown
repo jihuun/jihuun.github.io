@@ -1,9 +1,0 @@
----
-published: true
-title: 또 포스팅
-layout: post
-tags: [audio, test]
-categories: [tech]
----
-케케
-또 테스트임

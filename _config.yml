@@ -1,65 +1,32 @@
-### Site info:
-title: jihuun
-tagline: 블로그
-author: Ji-Hun Kim
-email: jihuun.k@gmail.com
-description: "The blog of jihuun" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
-keywords: "Jekyll, theme, Freshman21"
-locale: en_US
+# Setup
+title: "숲사람"
 
-### Personal info and site tools info:
-github_username: jihuun 
-facebook_username: jihuun 
-twitter_username: jihuunk
-disqus_shortname: jihuun
-favicon:     "/images/favicon.ico"
-aboutme:  # these are shown on aboutme-sidebar.
-aboutme_photo: https://avatars2.githubusercontent.com/u/8668053?v=3&s=460
+# Use absolute URL when not hosting on the root of server
 
+url: ""
+baseurl: "" 
 
-### Site setting:
-ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown when ShowContactInfo == True
-default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
-default_locale: "en" # blog sidebar language set, only include: English(en) and Chinese (cn)
-
-locales:
-    en:
-      Aboutme: "About Me"
-      Archives: "Archives"
-      Blogroll: "Blogroll"
-      Categories: "Categories"
-      Copyright_Notice: "Copyright Notice"
-      Recent_Posts: "Recent Posts"
-      Tags: "Tags"
-      Previous: "Older"
-      Next: "Newer"
-      PostedInCategories: "Posted in"
-      Taggedwith: "and tagged"  
-      PostDate: "on "
-    cn:
-      Aboutme: "关于我"
-      Archives: "存档"
-      Blogroll: "良师益友"        
-      Categories: "分类目录"    
-      Copyright_Notice: "版权声明"
-      Recent_Posts: "近期文章"
-      Tags: "标签" 
-      Previous: "前一页"
-      Next: "后一页"
-      PostedInCategories: "目录:"   
-      Taggedwith: "| 标签:"
-      PostDate: "| 发表时间: "
-
-
-### your Blogroll info, only name can shown on the page.
-
-Blogroll:
-    - name: jihuun blog
-      href: http://jihuun.com
-      title: test
-
-
-### Build settings
 markdown: kramdown
-highlighter: pygments
-paginate: 5
+permalink: /writing/:title
+
+
+navigation:
+ - title: Home
+   url: /
+ - title: Writing
+   url: /writing/
+ - title: About
+   url: /about/
+
+
+# Assets
+
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+
+
+
+port: 8989
