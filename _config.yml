@@ -25,4 +25,7 @@ collections:
   poetry:
     output: true
     permalink: /poetry/:path/
+  exploration:
+    output: true
+    permalink: /exploration/:path/
 
