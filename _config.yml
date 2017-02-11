@@ -14,6 +14,7 @@ markdown: kramdown
 highlighter: rouge
 
 # Pagination
+gems: [jekyll-paginate]
 paginate: 15
 paginate_path: "/blog/page:num/"
 
