@@ -41,11 +41,11 @@ layout: default
                     </li>
                     {% endif %}
                 </ul>
-                
-		{% include facebook-comment.html %}
-		<hr/>
-		<br><h4>Comments</h4><br>
-		<div class="fb-comments" data-href="http://soopsaram.com" data-numposts="15" data-width="706"></div>
+
+                {% include facebook-comment.html %}
+                <hr/>
+                <br><h4>Comments</h4><br>
+                <div class="fb-comments" data-href="http://soopsaram.com{{ page.url }}" data-numposts="15" data-width="706"></div>
 
             </div>
         </div>
