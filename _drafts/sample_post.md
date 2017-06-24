@@ -1,14 +1,11 @@
 ---          
 layout:	    post          
 title: 	    
-subtitle:   "여행 D+, 안나푸르나 D+"          
-date:       2017-- 12:00:10   
+subtitle:   "여행 D+AA,  D+"          
+date:       2017-MM-DD 12:00:10   
 tags:       포스팅          
-header-img: img/post-travel-.jpg
+header-img: img/post-travel-AA.jpg
 ---          
   
-오늘 이동한 경로 () -> () (총 km)  
 
-*() -> ()*
-
-![](/img/170-maps.png)
+![](/img/17MMDD-.jpg)
