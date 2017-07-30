@@ -10,7 +10,7 @@ description: "휴직 1년 동안의 삶과 생각 그리고 기록"
         </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
-            {{ post.subtitle }}
+            {% if post.new %} <font size="5" color="red" weight="bolder">new</font> {% endif %} {{ post.subtitle }}
         </h3>
         {% endif %}
     </a>
