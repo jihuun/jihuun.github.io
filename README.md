@@ -1,24 +1,32 @@
-#Clean Blog by Start Bootstrap - Jekyll Version
+# Solo 
 
-The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
+Solo is forked from [Solo](http://chibicode.github.io/solo), which is a Jekyll theme that supports **single-page websites** only, but supports them well. Yes, it's responsive.
 
-###[View Live Demo &rarr;](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
+### Color Themes
 
-## Before You Begin
+Solo ships with eight optional based on [Lanyon Color Themes](https://github.com/poole/lanyon). You can apply a theme that changes the color of the title and links (more elements to be added later). By default, no theme is used and the titles are colored black and links are colored blue. 
 
-In the _config.yml file, the base URL is set to /startbootstrap-clean-blog-jekyll which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
+These are the eight themes available:
 
-It should look like this:
-`baseurl: ""`
+![Available color themes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
 
-## What's Included
+To use a theme, simply add a theme class to the `<body>` element in the `_layouts/default.html` as follows:
 
-A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run `jekyll serve` in your command line and preview the build in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
+```html
+<body class="theme-base-08">
+  ...
+</body>
+```
 
-A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to apply the MIT license, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
+This is an example of using the red (`theme-base-08`) color theme.
 
-You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
+![Solo with red color theme](solo-red-screenshot.png)
 
-## Support
+Thanks to [Poole](https://github.com/poole) for creating these themes for Jekyll.
 
-Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
+
+
+
+
+
+

@@ -1,27 +1,22 @@
 # Site settings
-title: 숲사람 일기
-author: 숲사람
-header-img: img/home-bg.jpg
-email: procyonq@gmail.com
-copyright_name: 숲사람의 기록
-description: "숲사람 블로그 - 백수 생활 1년 동안의 삶과 생각 그리고 기록"
-baseurl: ""
-url: "http://soopsaram.com"
-twitter_username:	jihuunk
-github_username:	jihuun
-facebook_username:	jihuun
-email_username:		procyonq
-instagram_username:	soopsaram
-
-# Google Analytics
-# To enable google analytics, uncomment below line with a valid Google Tracking ID
-google_tracking_id: UA-144749097-1
+title: Solo, a Jekyll Theme
+tag_text: Solo
+description: Solo is a Jekyll theme that supports single-page websites only, but supports them well. Yes, it’s responsive.
 
 # Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 15
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+markdown: redcarpet
+highlighter: pygments
 
-gems: [jekyll-paginate, jekyll-feed]
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data', 'footnotes']
+
+# Enable when using kramdown
+# kramdown:
+#   auto_ids: true
+#   footnote_nr: 1
+#   entity_output: as_char
+#   toc_levels: 1..6
+#   use_coderay: false
+
+exclude: ["README.md"]
+
