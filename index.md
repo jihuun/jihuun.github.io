@@ -12,15 +12,14 @@ layout: default
 	- [여행기,세상의 변두리를 찾아서](http://soopsaram.com/travel/)
 	- 퇴근 길 서울 여행
 	- 월간 숲사람
-	- 미술 라이프
   
 * Documentations
 
 	- Documentudy (like a TIL)
+	- [Machine Learning](http://soopsaram.com/ml/)
 	- Linux Kernel Digging 
 	- LFS (Linux From Scratch)
-	- ARM Assembly Language
-	- [Machine Learning](http://soopsaram.com/ml/)
+	- [Learning Assembly Language with ARM](http://soopsaram.com/assembly/)
 	- Hot Devices of This Week
 	- Quantum Computing with IBM Q
 	- Playlists
