@@ -11,14 +11,14 @@ layout: default
 	- [북-로그](http://instagram.com/soopsaram)
 	- [여행기,세상의 변두리를 찾아서](http://soopsaram.com/travel/)
 	- 퇴근 길 서울 여행
-	- 월간 숲사람
+	- 월간 숲놈
   
 * Documentations
 
 	- Documentudy (like a TIL)
 	- [Machine Learning](http://soopsaram.com/ml/)
 	- Linux Kernel Digging 
-	- LFS (Linux From Scratch)
+	- [LFS (Linux From Scratch)](http://soopsaram.com/lfs/)
 	- [Learning Assembly Language with ARM](http://soopsaram.com/assembly/)
 	- Hot Devices of This Week
 	- Quantum Computing with IBM Q
