@@ -21,7 +21,7 @@ layout: default
 	- [LFS (Linux From Scratch)](http://soopsaram.com/lfs/)
 	- [Learning Assembly Language with ARM](http://soopsaram.com/assembly/)
 	- [Hot Devices of This Week](http://soopsaram.com/hot-devices)  
-	- Quantum Computing with IBM Q
+	- The Rust Programming Language
 	- Playlists
 		- [The City Midnights](https://music.apple.com/kr/playlist/the-city-midnights/pl.u-06oxDGgt9Drg8B)
 		- [The City Grooves](https://music.apple.com/kr/playlist/the-city-grooves/pl.u-XkD00v0uNj1Pl3)
