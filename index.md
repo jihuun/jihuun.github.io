@@ -7,10 +7,9 @@ layout: default
   
 * Logs
 
-	- 삶과 생각과 기록
 	- [북-로그](http://instagram.com/soopsaram)
+	- [인간과 세상을 이해하는 도구 미술](https://brunch.co.kr/magazine/by-art)
 	- [여행기,세상의 변두리를 찾아서](http://soopsaram.com/travel/)
-	- [퇴근 길 서울 여행](https://brunch.co.kr/@soopsaram)
 	- 월간 숲놈
   
 * Documentations
