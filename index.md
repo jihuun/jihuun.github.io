@@ -11,6 +11,7 @@ layout: default
 	- [미술로 이해하는 인간과 세상](https://brunch.co.kr/magazine/by-art)
 	- [여행기,세상의 변두리를 찾아서](http://soopsaram.com/travel/)
 	- 월간 숲놈
+	- [숲놈키친](https://www.instagram.com/stories/highlights/17881324732514423/)
   
 * Documentations
 
@@ -27,11 +28,11 @@ layout: default
 		- [The Layers of Seoul](https://music.apple.com/kr/playlist/the-layers-of-seoul/pl.u-r2yB1W4TqNMX4L)
 
 * Projects
-
+	- [리모트 레슨](http://remote-lesson.org)
+	- [CapTube: Youtube Capture](https://github.com/jihuun/youtube_capture)
 	- [숲사람 하우스](https://www.airbnb.co.kr/rooms/17832761)
 	- [vimdic](https://github.com/vimdic/vimdic)
 	- [cscope-filter](https://github.com/scriptworld/cscope-filter)
 	- [cdd](https://github.com/scriptworld/cdd)
 	- [gov](https://github.com/scriptworld/gov)
-	- [CapTube: Youtube Capture](https://github.com/jihuun/youtube_capture)
 	- [트레바리 클럽별 선정 도서 목록](https://github.com/jihuun/web_crawlers/blob/master/trevari/trevari_book_list.md)
