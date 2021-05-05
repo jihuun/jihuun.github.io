@@ -8,28 +8,30 @@ layout: default
 * Logs
 
 	- [북-로그](http://instagram.com/soopsaram)
-	- [미술로 이해하는 인간과 세상](https://brunch.co.kr/magazine/by-art)
-	- [여행기,세상의 변두리를 찾아서](http://soopsaram.com/travel/)
+	- [미술은 어떤 질문을 던지는가](https://brunch.co.kr/magazine/by-art)
+	- [여행기-세상의 변두리를 찾아서](http://soopsaram.com/travel/)
 	- 월간 숲놈
 	- [숲놈키친](https://www.instagram.com/stories/highlights/17881324732514423/)
   
 * Documentations
 
-	- Documentudy (like a TIL)
+	- Documentudy
 	- [Machine Learning](http://soopsaram.com/ml/)
 	- Linux Kernel Digging 
 	- [LFS (Linux From Scratch)](http://soopsaram.com/lfs/)
 	- [Learning Assembly Language with ARM](http://soopsaram.com/assembly/)
 	- [Hot Devices of This Week](http://soopsaram.com/hot-devices)  
 	- The Rust Programming Language
+	- [The Bottom Left](https://soundcloud.app.goo.gl/MwMjS)  
 	- Playlists
 		- [The City Midnights](https://music.apple.com/kr/playlist/the-city-midnights/pl.u-06oxDGgt9Drg8B)
 		- [The City Grooves](https://music.apple.com/kr/playlist/the-city-grooves/pl.u-XkD00v0uNj1Pl3)
 		- [The Layers of Seoul](https://music.apple.com/kr/playlist/the-layers-of-seoul/pl.u-r2yB1W4TqNMX4L)
 
 * Projects
+	- [CapTube: Youtube Capturing Tool](https://captube.net)  
+	- [(0,0)](https://instagram.com/young.comma.young)  
 	- [리모트 레슨](http://remote-lesson.org)
-	- [CapTube: Youtube Capture](https://github.com/jihuun/youtube_capture)
 	- [숲사람 하우스](https://www.airbnb.co.kr/rooms/17832761)
 	- [vimdic](https://github.com/vimdic/vimdic)
 	- [cscope-filter](https://github.com/scriptworld/cscope-filter)
