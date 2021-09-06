@@ -3,25 +3,21 @@ layout: default
 ---
 
 ## 숲사람 모음집
-> (발매 준비 중)
   
 * Logs
 
 	- [북-로그](http://instagram.com/soopsaram)
 	- [미술은 어떤 질문을 던지는가](https://brunch.co.kr/magazine/by-art)
 	- [여행기-세상의 변두리를 찾아서](http://soopsaram.com/travel/)
-	- 월간 숲놈
 	- [숲놈키친](https://www.instagram.com/stories/highlights/17881324732514423/)
   
 * Documentations
 
-	- Documentudy
+	- [Documentudy](http://soopsaram.com/documentudy/)
 	- [Machine Learning](http://soopsaram.com/ml/)
-	- Linux Kernel Digging 
 	- [LFS (Linux From Scratch)](http://soopsaram.com/lfs/)
 	- [Learning Assembly Language with ARM](http://soopsaram.com/assembly/)
 	- [Hot Devices of This Week](http://soopsaram.com/hot-devices)  
-	- The Rust Programming Language
 	- [The Bottom Left](https://soundcloud.app.goo.gl/MwMjS)  
 	- Playlists
 		- [The City Midnights](https://music.apple.com/kr/playlist/the-city-midnights/pl.u-06oxDGgt9Drg8B)
