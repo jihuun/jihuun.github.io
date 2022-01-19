@@ -25,8 +25,9 @@ layout: default
 		- [The Layers of Seoul](https://music.apple.com/kr/playlist/the-layers-of-seoul/pl.u-r2yB1W4TqNMX4L)
 
 * Projects
-	- [CapTube: Youtube Capturing Tool](https://captube.net)  
-	- [(0,0)](https://instagram.com/young.comma.young)  
+	- [(0,0)](https://instagram.com/0_comma_0)  
+	- [The Spice Generator](http://soopsaram.iptime.org/)  
+	- [CapTube: Youtube Capturing Tool](https://github.com/captube/youtube_capture)  
 	- [리모트 레슨](http://remote-lesson.org)
 	- [숲사람 하우스](https://www.airbnb.co.kr/rooms/17832761)
 	- [vimdic](https://github.com/vimdic/vimdic)
