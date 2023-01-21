@@ -4,17 +4,10 @@ layout: default
 
 ## 숲사람 모음집
   
-* Logs
-
-	- [북-로그](http://instagram.com/soopsaram)
-	- [미술은 어떤 질문을 던지는가](https://brunch.co.kr/magazine/by-art)
-	- [여행기-세상의 변두리를 찾아서](http://soopsaram.com/travel/)
-	- [숲놈키친](https://www.instagram.com/stories/highlights/17881324732514423/)
-  
 * Documentations
 
-	- [Documentudy](http://soopsaram.com/documentudy/)
 	- [멘타트훈련](https://velog.io/@soopsaram)
+	- [Documentudy](http://soopsaram.com/documentudy/)
 	- [Machine Learning](http://soopsaram.com/ml/)
 	- [LFS (Linux From Scratch)](http://soopsaram.com/lfs/)
 	- [Learning Assembly Language with ARM](http://soopsaram.com/assembly/)
@@ -25,10 +18,17 @@ layout: default
 		- [The City Grooves](https://music.apple.com/kr/playlist/the-city-grooves/pl.u-XkD00v0uNj1Pl3)
 		- [The Layers of Seoul](https://music.apple.com/kr/playlist/the-layers-of-seoul/pl.u-r2yB1W4TqNMX4L)
 
+* Logs
+
+	- [북-로그](http://instagram.com/soopsaram)
+	- [미술은 어떤 질문을 던지는가](https://brunch.co.kr/magazine/by-art)
+	- [여행기-세상의 변두리를 찾아서](http://soopsaram.com/travel/)
+	- [숲놈키친](https://www.instagram.com/stories/highlights/17881324732514423/)
+  
 * Projects
+
 	- [Tune Temple](https://instagram.com/tune.temple)  
-	- [(0,0)](https://instagram.com/0_comma_0)  
-	- [The Spice Generator](http://soopsaram.iptime.org/)  
+	- [NHRB](https://www.instagram.com/nhrb.space/)
 	- [CapTube: Youtube Capturing Tool](https://github.com/captube/youtube_capture)  
 	- [리모트 레슨](http://remote-lesson.org)
 	- [숲사람 하우스](https://www.airbnb.co.kr/rooms/17832761)
